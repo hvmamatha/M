@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        
+        <title>new tab</title>
+        <style>
+            input:focus{
+                background-color: aqua;
+            }
+            text:focus{
+                background-color: blueviolet;
+            }
+            input[type=email]:focus{
+                background-color: rgb(58, 7, 241);
+            }
+            .lang:focus{
+                background-color:orangered ;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <form>
+            Firstname<input type="text"><br><br>
+            Lastname<input type="text"><br><br>
+            Email_id<input type="email" requied ><br><br>
+            Mobile no.<input type="tel" required size="10"><br><br>
+            Password<input type="text" ><br><br>
+            <p>languages known</p>
+                    <input type="checkbox" name="lang" >English<br>
+                    <input type="checkbox" name="lang" >telugu<br>
+                    <input type="checkbox" name="lang" >hindi<br>
+                    <input type="checkbox" name="lang" >kannada<br>
+                    <input type="checkbox" name="lang" >tamil<br><br><br>
+            work experience<input type="number" min="0" max="5"><br><br>
+            <button>SUBMIT</button>
+
+        </form>
+
+    </body>
+</html>

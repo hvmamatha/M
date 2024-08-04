@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>new tab</title>
+        <style>
+            div{
+
+                background-color: rgb(17, 229, 245);
+                display: flex;
+                justify-content: space-around;
+                flex-flow: row-reverse wrap;
+                align-items: center;
+                height:100px;
+            }
+            p{
+                background-color: bisque;
+                padding: 3px;
+                margin: 3px;
+            }
+            #one{
+                align-self: center;
+                flex-grow:2;
+                order:5;
+            }
+            #two{
+                align-self:center;
+                flex-grow: 2;
+                order: 4;
+            }
+            #three{
+                align-self: center;
+                flex-grow: 2;
+                order:3;
+            }
+            #four{
+                align-self:center;
+                flex-grow: 2;
+                order:2;
+            }
+            #five{
+                align-self: center;
+                flex-grow: 2;
+                order:1;
+            }
+            img{
+                height:100px;
+                width:100px;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p id="one">one</p>
+            <p id="two">two</p>
+            <p id="three">three</p>
+            <p id="four">four</p>
+            <p id="five">five</p>
+        </div>
+        <img src="flower.jpg" >
+        <p>i am just a random paragraph i am just a random paragraph i am just a random paragraph i am just a random paragraph i am just a random paragraph i am just a random paragraph </p>
+        <p style="clear:left"> i am paragraph</p>
+    </body>
+</html>
